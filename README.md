@@ -61,6 +61,4 @@ This is the Johnson Haoran Ji's study note, only for referencing and studying, n
 | ENGPHYS 4B03 | Nanobiosensors – Fundamentals and Applications |
 | SFWRENG 4E03 | Performance Analysis of Computer Systems |
 
-Other technical and complementary studies electives depend on individual course choices.
 
-Sources: [McMaster Undergraduate Calendar 2025–2026, Mechatronics Engineering B.Eng.](https://registrar.mcmaster.ca/wp-content/uploads/2025/06/ug-calendar-covers-web.pdf); [Computing and Software course listings](https://www.eng.mcmaster.ca/cas/courses/); [Engineering Physics course listings](https://www.eng.mcmaster.ca/engphys/courses/).
