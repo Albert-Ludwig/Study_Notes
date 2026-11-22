@@ -1,10 +1,8 @@
 # McMaster Mechatronics Engineering Study Notes
 
-This course index is organized by program level. **Linked course codes** lead to notes available in this repository; unlinked courses are listed for reference and do not have a notes folder yet. Course names and level groupings follow the Mechatronics Engineering B.Eng. program in the McMaster 2025–2026 Undergraduate Calendar. Requirements may vary by entry year and elective choices.
+This is the Johnson Haoran Ji's study note, only for referencing and studying, not for copying, sharing and commercial purpose.
 
 ## Level I
-
-Only the three mathematics courses with existing notes are listed here.
 
 | Course | Title |
 | --- | --- |
