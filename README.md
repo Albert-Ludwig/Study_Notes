@@ -31,11 +31,11 @@ This is the Johnson Haoran Ji's study note, only for referencing and studying, n
 | Course | Title |
 | --- | --- |
 | SFWRENG 3SH3 | Operating Systems |
-| [MECHTRON 3DX4](./3DX4) | Dynamic Models and Control of Physical Systems (linked repository) |
+| [MECHTRON 3DX4](./3DX4) | Dynamic Models and Control of Physical Systems |
 | MECHTRON 3K04 | Software Development |
 | MECHTRON 3MX3 | Signals and Systems |
 | MECHTRON 3TB4 | Embedded Systems Design II |
-| [MECHTRON 3X03](./3X03) | Scientific Computation (lecture notes) |
+| [MECHTRON 3X03](./3X03) | Scientific Computation |
 | MECHENG 2DA3 | Mechanical Engineering Design Elements |
 | ENGPHYS 2NE3 | Thermal Systems Design |
 | ELECENG 3N03 | Analog Electronics for Measuring Systems |
