@@ -1,0 +1,31 @@
+INPUT1	DCD		2573 ; Set Input1 Value here
+INPUT2	DCD		5924 ; Set Input2 Value here
+		MOV		R0, #0 ; Output
+		ADR		R1, INPUT1 ; Input1
+		LDR		R1, [R1]
+		ADR		R2, INPUT2 ; Input2
+		LDR		R2, [R2]
+
+CHECK	CMP		R1, #0 ; Check if Input1 is 0
+		BEQ		I1is0
+		CMP		R2, #0 ; Check if Input2 is 0
+		BEQ		I2is0
+		CMP		R1, R2
+		BEQ		I2is0 ; If both inputs same, return Input2
+		BGT		LOOP
+		MOV		R4, R2 ; Change R1 and R2
+		MOV		R2, R1 ; So R1 is now greater
+		MOV		R1, R4 ; And continue to loop
+		
+LOOP		ADD		R3, R3, R2 ; R3 0 in beginning
+		CMP		R1, R3     ; Check R3 with R1
+		BGE		LOOP       ; While it is lower, loop
+		SUB		R3, R3, R2 ; Remove extra R2 added
+		SUB		R1, R1, R3 ; Put Modulus in R1
+		MOV		R3, #0     ; Reset R3
+		BAL		CHECK	 ; Loop to Check 
+		
+I1is0	MOV		R0, R2
+		END
+I2is0	MOV		R0, R1
+		END
